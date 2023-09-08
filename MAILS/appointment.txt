@@ -1,0 +1,21 @@
+Subject: Your Blood Donation Appointment Details 🩸
+
+Hi [Donors Name],
+
+Great news! Your blood donation appointment is scheduled:
+
+📅 Date: [Date of the Appointment]
+🕒 Time: [Time of the Appointment]
+🏥 Location: [Hospital/Clinic Name]
+📍 Address: [Hospital/Clinic Address]
+📞 Contact: [Hospital/Clinic Contact]
+
+Please arrive [Arrival Time] early for a quick health check. Your kindness saves lives!
+
+Questions or changes? Contact us at [Contact Email/Phone].
+
+Thank you for your generosity. See you on [Appointment Date]!
+
+Best regards,
+[Your Name]
+[Organization Name]

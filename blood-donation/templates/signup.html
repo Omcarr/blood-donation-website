@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/styles.css">
+    <title>Sign Up - A Litre for a Life</title>
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="logo">
+            <img src="../static/assets/logo.jpg" alt="logo">
+        </div>
+        <div id="left-navbar" class="nav-links">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">About</a></li>       
+                <li><a href="/join">Join Us!</a></li>
+                <li><a href="/">Contact</a></li>
+            </ul>
+        </div>
+        <div class="mobile-menu-toggle">
+            <div class="bar open1"></div>
+            <div class="bar open2"></div>
+            <div class="bar open3"></div>
+        </div>
+    </nav>
+
+    <section class="login-section">
+        <h2>Sign Up</h2>
+        <form>
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <label for="confirm-password">Confirm Password:</label>
+                <input type="password" id="confirm-password" name="confirm-password" required>
+            </div>
+            <div class="form-group">
+                <a href="/registration" class="button-link" button-type = 'submit'>Sign Up</a></button>
+            </div>            
+        </form>
+
+        <div class = "already">
+            <i>Already a Donor?</i>
+            <a href = "/login" class = "button-link">Login</a>
+        </div>
+    </section>
+
+    <script src="../static/scripts.js"></script>
+</body>
+
+</html>

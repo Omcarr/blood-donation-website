@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/style.css">
+    <title>Blood Donation</title>
+</head>
+<body>
+    <div class="container">
+        <div class="applybox">
+            <h1> Blood Donor Details</h1>
+        <form action="">
+            <div class="formcont">
+    <div class="formcontrol">
+          <label for="first_name">Full Name</label>
+          <input
+          id="first_name"
+          name="name"
+          placeholder="Enter Full Name..."
+          />
+        </div>
+        <div class="formcontrol">
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" required>
+        </div>
+
+        <div class="formcontrol">
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password_hash" required>
+        </div>
+
+         <div class="formcontrol">
+              <label for="adaress">Address</label>
+              <select id="address" name="location">
+                 
+                    <option value="a">Select Address</option>
+                    <option value="b">North Mumbai</option>
+                    <option value="c">South Mumbai</option>
+                    <option value="d">Navi Mumbai</option>
+                    <option value="e">Thane</option>
+                
+        
+                 </select>
+        </div>
+
+        <div class="formcontrol">
+          <label for="blood_type">Blood Type</label>
+         <select id="blood_type", name="blood_group">
+            <option value="">Select blood Type</option>
+            <option value="a">A +ve</option>
+            <option value="a">A -ve</option>
+            <option value="a">B +ve</option>
+            <option value="a">B -ve</option>
+            <option value="a">AB +ve</option>
+            <option value="a">AB -ve</option>
+            <option value="a">O +ve</option>
+            <option value="a">O -ve</option>
+            <option value="a">Other...</option>
+         </select>
+            </div>
+            
+            <div class="formcontrol">
+              <label for="date"> Last Donation Date</label>
+              <input
+              type="date"
+              id="date"
+              name="last_donation_date"
+              placeholder="Last Donation Date" -->
+              />
+                 </div>
+
+         <div class="formcontrol">
+
+              <label for="email">Email</label>
+              <input type="email"
+              id="first_name"
+              name="email"
+
+              placeholder="Enter Email..."
+              />
+                </div>
+                
+                <div class="formcontrol">
+                  <label for="phone">Phone Number</label>
+                  <input type="text" id="phone" name="phone_number" placeholder="Enter your phone number">
+              </div>
+              
+            
+               
+                <button type="submit">Apply Now</button>
+            </div>
+          </div>
+        </form>
+        </div>
+    </div>
+</body>
+</html>
