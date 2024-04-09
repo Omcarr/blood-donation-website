@@ -1,2 +1,1 @@
-# blood-donation-website
-Our blood donation website is a Flask app integrated with MySQL for secure data storage. Our platform empowers users to become registered blood donors by furnishing vital personal details, including blood type and contact information. Our user-friendly interface facilitates seamless logins, enabling donors to manage their accounts effortlessly and schedule blood donation appointments at their convenience. Leveraging Flask's session management ensures a smooth and secure user experience, with informative flash messages providing valuable feedback. To enhance user engagement, our platform automatically sends confirmation emails upon successful registration. We streamline database interactions through SQLAlchemy, simplifying data management.
+
